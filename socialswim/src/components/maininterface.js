@@ -1,8 +1,12 @@
 import React from 'react';
+import selectType from 'MetaTags'
 
 function SocialInput(){
-    return
-    <h1>ask a Question here</h1>;
-
+    return(
+    <div classsName="row">
+    <h1>This is the main interface row</h1>
+    <selectType/>
+    </div>
+    );
 }
 export default SocialInput;
