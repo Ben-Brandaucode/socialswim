@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import metaTags from './MetaTags'
 
 class Form extends Component {
     constructor(props) {
@@ -19,6 +20,7 @@ class Form extends Component {
         return (
             <form>
                 <div>
+                    <metaTags/>
                     <label>Enter your Thought here</label>
                     <input type="text" value ={this.state.post} onChange={this.postwritten} />
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import selectType from 'MetaTags'
+import Form from './Form';
 
 function SocialInput(){
     return(

@@ -6,9 +6,10 @@ import Form from './components/Form';
 function App() {
   return (
     <div className="App">
-        <div classname="container"></div>
+        <div className="container"></div>
       <h1>the main interface should be below</h1>
       <Form/>
+      <objectView />
       </div>
   
   );

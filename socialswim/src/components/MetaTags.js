@@ -1,9 +1,37 @@
-// import React from 'react';
-// import { render } from 'react-dom';
+import React from 'react';
+import React, { Component } from 'react'
+
+export class MetaTags extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.type = {
+             
+        }
+    }
+    
+    render() {
+        return (
+            <div>
+            div className="col">
+            <input type="radio"value="Happy" name ="topic"/> Happy;
+            <input type= "radio" value ="angry" name="topic"/> Angry;
+            <input type="radio" value="political" name="topic"/> Political;
+            <input type= "radio"value={state.trending} name="topic"/> {state.trending} 
+                
+            </div>
+        )
+    }
+}
+
+export default MetaTags
+
 
 // function selectType(props){
-//     constuctor{
-//         type: 
+//     constuctor(props)
+//     super (props)
+//     this.state ={
+//         type: {value}
 
 
 //     }
@@ -23,3 +51,4 @@
         
 //     }
 // }
+// export default metaTags
